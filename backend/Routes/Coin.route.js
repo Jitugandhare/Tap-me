@@ -1,5 +1,5 @@
 const express = require('express');
-const { getCoinCount, incrementCoinCount } = require('../controllers/coinController');
+const { getCoinCount, incrementCoinCount } = require('../controller/Coin.controller');
 
 const router = express.Router();
 

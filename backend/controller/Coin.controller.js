@@ -1,4 +1,4 @@
-const CoinCounter = require('../model/CoinCounter.model');
+const CoinCounter = require('../model/Coin.model');
 
 exports.getCoinCount = async (req, res) => {
     try {

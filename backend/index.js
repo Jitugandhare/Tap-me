@@ -1,8 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const coinRoutes = require('./routes/coinRoutes');
-const connectToDatabase = require('./config/db');
+const coinRoutes = require('./Routes/Coin.route');
+const connectToDatabase = require('./DB/db');
 const app = express();
 
 // Middleware
